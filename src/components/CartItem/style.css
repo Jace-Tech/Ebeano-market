@@ -1,0 +1,26 @@
+.cart-quantity{
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #777;
+    padding: .5rem .2rem;
+    display: inline-block;
+    border: none;
+    width: 30px;
+    text-align: center;
+}
+
+.cart-quantity:focus{
+    outline: none;
+}
+
+.minusBtn{
+    width: 1.25rem;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .minusBtn{
+        width: 1.22rem;
+    }
+}

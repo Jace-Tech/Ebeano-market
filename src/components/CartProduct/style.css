@@ -1,0 +1,27 @@
+.product-img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.checkout-btn{
+    font-size: .85rem;
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--primary);
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px)  {
+    .checkout-btn{
+        font-weight: 500;
+        font-size: .9rem;
+        padding: .8rem 2rem;
+    }
+}

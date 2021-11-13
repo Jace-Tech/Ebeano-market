@@ -1,0 +1,12 @@
+.addBtn{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary);
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    color: #fff;
+}

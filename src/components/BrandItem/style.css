@@ -1,0 +1,32 @@
+.brand-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 582px) {
+    .brand-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .brand-img{
+        width: 152px;
+        height: 152px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+
+.brand-link{
+    display: inline-block;
+    text-decoration: none;
+}

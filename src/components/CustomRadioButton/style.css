@@ -1,0 +1,40 @@
+.custom-label{
+    font-size: 1rem;
+    color: #777;
+    font-weight: 300;
+    text-transform: capitalize;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    padding: .1rem 0;
+    align-items: center;
+}
+
+.custom-label > span{
+    flex: 1;
+}
+
+.custom-radio{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-radio-inner{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.custom-radio.checked{
+    border-color: var(--primary);
+}
+
+.custom-radio.checked .custom-radio-inner{
+    background-color: var(--primary);
+}

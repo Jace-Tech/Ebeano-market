@@ -1,0 +1,29 @@
+
+.breadcrumbs{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.breadcrumbs-item{
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs-link{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #777;
+}
+
+.breadcrumbs-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 .5rem;
+    font-size: .8rem;
+    color: #777;
+}

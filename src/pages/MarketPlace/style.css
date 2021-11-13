@@ -1,0 +1,151 @@
+.bg-hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.bg-hero::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.bg-img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 992px){
+    .bg-hero{
+        height: fit-content;
+        padding: 8rem 0;
+    }
+
+    .bg-img{
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px){
+    .bg-hero{
+        height: fit-content;
+        padding: 5rem 0;
+    }
+
+    .bg-img{
+        object-fit: cover;
+    }
+}
+
+.form-group-mart{
+    display: flex;
+    flex-direction: column;
+    padding: .3rem 1rem;
+    margin: .4rem 0;
+    justify-content: center;
+}
+
+.mart-label{
+    width: 100%;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-family: "Sen",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mart-select{
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: .5rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+    color: #777;
+}
+
+.mart-select:focus{
+    outline: none;
+}
+
+.form-group-mart.border{
+    border-right: 1px solid var(--primary);
+}
+
+@media (max-width: 768px){
+    .border-top{
+        border: none;
+        border-top: 1px solid var(--primary);
+    }
+
+    .border.border-mid{
+        border-right: 0;
+    }
+}
+
+@media (max-width: 582px)  {
+    .form-group-mart.border{
+        border: none;
+        border-bottom: 1px solid var(--primary);
+    }
+
+    .border-top{
+        border: none;
+        border-bottom: 1px solid var(--primary);
+    }
+}
+
+.mart-search{
+    cursor: pointer;
+    display: inline-block;
+    padding: .6rem 1.5rem;
+    background-color: var(--primary);
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.mart-search-outline{
+    cursor: pointer;
+    display: inline-block;
+    padding: .6rem 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.view-all-btn{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+}

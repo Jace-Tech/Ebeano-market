@@ -1,0 +1,27 @@
+.select-label{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-family: "Sen",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pagemain-select{
+    border: none;
+    background-color: transparent;
+    padding: .5rem 0;
+    color: #999;
+    min-width: 150px;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.pagemain-select > option{
+    color: var(--primary);
+    font-weight: 300;
+}
+
+.pagemain-select:focus{
+    outline: none;
+}

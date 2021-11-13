@@ -1,0 +1,23 @@
+.block-btn{
+    display: inline-block;
+    padding: .8rem 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: all .5s;
+    text-decoration: none;
+}
+
+.block-btn.light{
+    background-color: #fff;
+    color: #333;
+}
+
+.block-btn.dark{
+    background-color: #333;
+    color: #fff;
+}
+
+.block-btn:hover{
+    color: #fff;
+    background-color: var(--primary);
+}

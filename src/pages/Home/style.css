@@ -1,0 +1,37 @@
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-next{
+    position: absolute;
+    right: 4%;
+    top: 88%;
+    color: #fff;
+    z-index: 10;
+}
+
+.swiper-prev{
+    position: absolute;
+    left: 4%;
+    top: 88%;
+    color: #fff;
+    z-index: 10;
+}
+
+.swiper-smallBtn-next{
+    position: absolute;
+    right: 0;
+    top: 35%;
+    color: #fff;
+    z-index: 10;
+}
+
+.swiper-smallBtn-prev{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    color: #fff;
+    z-index: 10;
+}
