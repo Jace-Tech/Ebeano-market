@@ -1,0 +1,9 @@
+.track-item{
+    padding: 1rem;
+    border-radius: 6px;
+    position: relative;
+}
+
+.track-item.active{
+    background-color: rgba(235, 121, 15, .15);
+}

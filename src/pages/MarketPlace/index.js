@@ -20,7 +20,7 @@ import StockItem from "../../components/StockItem"
 import Seo from "../../components/Seo"
 
 
-import { viewMore} from "../../components/Slider"
+import { viewMore } from "../../components/Slider"
 import { popularItems, masonryItems, latestItems, locationItems, brands, stockItems } from "../../apis/data"
 
 import BG from "../../assets/marketBG.jpg"

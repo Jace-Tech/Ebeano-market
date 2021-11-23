@@ -4,6 +4,7 @@ import HomeComponent from "./pages/Home"
 import MarketPlace from "./pages/MarketPlace"
 import Checkout from "./pages/Checkout"
 import Cart from "./pages/Cart"
+import Tracking from "./pages/Tracking"
 import Category from "./pages/Category"
 import ErrorPage from "./pages/ErrorPage"
 import ScrollTop from "./components/ScrollTop"
@@ -34,6 +35,10 @@ const App = () => {
         {
             path: "/checkout",
             component: Checkout
+        },
+        {
+            path: "/tracking",
+            component: Tracking
         },
         {
             path: "*",
