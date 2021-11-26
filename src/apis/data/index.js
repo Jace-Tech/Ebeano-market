@@ -102,31 +102,38 @@ export const banners = [
 export const categories = [
     {
         name: "Real Estate",
-        image: Building
+        image: Building,
+        link: ""
     },
     {
         name: "Utility",
-        image: Utility
+        image: Utility,
+        link: "http://v1.ebeanomarket.com/expressbills"
     },
     {
         name: "Automobile",
-        image: Car
+        image: Car,
+        link: ""
     },
     {
         name: "Education",
-        image: Page
+        image: Page,
+        link: ""
     },
     {
         name: "Bookings",
-        image: Calendar
+        image: Calendar,
+        link: ""
     },
     {
         name: "MarketPlace",
-        image: House
+        image: House,
+        link: ""
     },
     {
         name: "Artisan",
-        image: Artisan
+        image: Artisan,
+        link: ""
     },
 ]
 

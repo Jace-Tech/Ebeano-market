@@ -9,7 +9,7 @@ const Hero = ({image, title, price, name, per}) => {
         <div className="hero">
             <img src={image && image} alt={title && title} className="hero-img" />
 
-            <Box position="absolute" left={0} top={0} width="100%" height="100%" sx={{backgroundColor: "rgba(0, 0, 0, .2)"}}>
+            <Box position="absolute" left={0} top={0} width="100%" height="100%" sx={{backgroundColor: "rgba(0, 0, 0, .4)"}}>
                 <Box position="absolute" sx={{top: {xs: 100, sm: 120, md: 170, lg: 200}}} width="100%">
                     <BaseContainer>
                         <Box sx={{width: {xs: "100%", sm: "70%", md: "60%", lg: "50%"}}}>

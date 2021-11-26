@@ -94,7 +94,7 @@ const MarketPlace = () => {
                         </Box>
                     </Box>
 
-                    <Box display="block" position="relative"  sx={{textAlign: "center" }} >
+                    <Box display={{ xs: "none", md: "block" }} position="relative" sx={{textAlign: "center" }} >
                         <Typography fontSize="1.2rem" sx={{textAlign: "center", letterSpacing: 1, textTransform: "uppercase", marginY: 3, color: "#fff", fontWeight: 600}}>Or</Typography>
                         <button className="view-all-btn text-hover text-underlined">View All</button>
                     </Box>

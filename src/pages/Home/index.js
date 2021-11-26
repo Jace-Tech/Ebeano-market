@@ -108,9 +108,9 @@ const Home = () => {
                     <Box display={{xs: "none", sm: "none", md: "none", lg: "block"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={7}>
                             {
-                                categories.map(({name, image}, index) => (
+                                categories.map(({name, link, image}, index) => (
                                     <SwiperSlide key={index}>
-                                        <Category name={name} image={image}/>
+                                        <Category name={name} link={link} image={image}/>
                                     </SwiperSlide>
                                 ))
                             }

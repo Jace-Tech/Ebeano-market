@@ -21,7 +21,7 @@ const Header = ({mode, isSticky}) => {
     }
 
     return (
-        <Box position={isSticky ? "sticky" : "absolute"} sx={{backgroundColor: (mode !== 'dark') ? "rgba(0, 0, 0, .4)" : "rgba(255, 255, 255, 1)", boxShadow: (mode === 'dark') &&  "0 3px 8px rgba(0, 0, 0, .2)" , transition: "all .5s" , paddingY: {xs: 1, md: 1.5}}} width="100%" left={0} top={0} zIndex={1000}>
+        <Box position={isSticky ? "sticky" : "absolute"} sx={{backgroundColor: (mode !== 'dark') ? "transparent" : "rgba(255, 255, 255, 1)", boxShadow: (mode === 'dark') &&  "0 3px 8px rgba(0, 0, 0, .2)" , transition: "all .5s" , paddingY: {xs: 1, md: 1.5}}} width="100%" left={0} top={0} zIndex={1000}>
             <BaseContainer>
                 <Box display="flex" alignItems="center" justifyContent="space-between" position="relative">
                     <Box display="flex" alignItems="center">
