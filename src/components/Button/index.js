@@ -1,4 +1,4 @@
-import {Box, IconButton, Icon, Fade, Tooltip} from "@mui/material"
+import {Box, IconButton, Fade, Tooltip} from "@mui/material"
 import "./style.css"
 import { MdFavoriteBorder } from "react-icons/md";
 

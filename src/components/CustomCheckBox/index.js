@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import "./style.css"
 
 const CustomRadioButton = ({label, children, quantity, value, onChange}) => {

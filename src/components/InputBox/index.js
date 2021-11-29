@@ -1,8 +1,6 @@
-// import { useField } from "formik"
-
 import "./style.css"
 
-const InputBox = ({ label, handleChange, value, type, kind, items}) => {
+const InputBox = ({ label, handleChange, value, type, kind, items, children }) => {
 
     if (kind && kind.toLowerCase() === "select") {
         return (

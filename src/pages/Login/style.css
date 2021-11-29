@@ -1,0 +1,21 @@
+.forgot-password{
+    font-size: .95rem;
+    display: inline;
+    width: 100%;
+    color: var(--primary);
+    text-decoration: none;
+    flex: 1;
+    text-align: right;
+}
+
+.create-account{
+    font-size: .9rem;
+    color: #777;
+}
+
+.create-link{
+    display: inline-block;
+    margin: 0 .2rem;
+    text-decoration: none;
+    color: var(--primary);
+}

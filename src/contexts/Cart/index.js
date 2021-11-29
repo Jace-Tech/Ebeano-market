@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from 'react'
-import { latestItems } from "../../apis/data"
 
 export const CartContext = createContext()
 
@@ -70,7 +69,8 @@ const Cart = ({ children }) => {
 
     useEffect(() => {
         getTotalCount()
-    }, [selectedItems, cart])
+    }, [ selectedItems, cart])
+
 
     return (
         <CartContext.Provider value={{cart, addItem, deleteItem, clearCart, handleGlobalCheck, addSelectedItem, removeSelectedItem, totalSub, updateQuantity}}>

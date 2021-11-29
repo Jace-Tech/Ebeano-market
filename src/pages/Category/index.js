@@ -1,5 +1,5 @@
-import { useContext, useEffect } from "react"
-import { Box, Grid, usePagination } from "@mui/material"
+import { useContext } from "react"
+import { Box, Grid } from "@mui/material"
 import { Link, useParams } from "react-router-dom"
 import Header from "../../components/Header"
 import BaseContainer from "../../components/BaseContainer"
@@ -27,9 +27,6 @@ const Category = () => {
     const  { handleOpen, handleClose, isOpen }  = useContext(SideBarContext)
     const  { addItem }  = useContext(CartContext)
 
-    const { items: paginationItems } = usePagination({
-        count: 50
-    })
 
     return (
         <Box>

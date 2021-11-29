@@ -1,5 +1,5 @@
 import { useState, useContext } from "react"
-import {Box, Typography, Container, Icon, IconButton, Badge } from "@mui/material"
+import {Box, Typography, IconButton, Badge } from "@mui/material"
 import { Link } from "react-router-dom"
 import BaseContainer from "../BaseContainer"
 import { HiMenuAlt1 } from "react-icons/hi";
@@ -17,7 +17,7 @@ const Header = ({mode, isSticky}) => {
     const { cart } = useContext(CartContext)
 
     const handleSearch = e => {
-
+        e.preventDefault()
     }
 
     return (
@@ -44,15 +44,15 @@ const Header = ({mode, isSticky}) => {
                                 <Typography sx={{fontSize: ".95rem", fontWeight: 300}}>Sell on Ebeano</Typography>
                             </Link>
 
-                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/">
+                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/tracking">
                                 <Typography sx={{fontSize: ".95rem", fontWeight: 300}}>Track order</Typography>
                             </Link>
 
-                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/">
+                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/login">
                                 <Typography sx={{fontSize: ".95rem", fontWeight: 300}}>Login</Typography>
                             </Link>
 
-                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/">
+                            <Link className={`nav-links ${(mode === 'dark') && "light"}`} to="/register">
                                 <Typography sx={{fontSize: ".95rem", fontWeight: 300}}>Register</Typography>
                             </Link>
                         </Box>
@@ -60,7 +60,7 @@ const Header = ({mode, isSticky}) => {
 
                     <Box display="flex" alignItems="center" ml={4} sx={{flex: {xs: 0, sm: 1, md: 1}}}>
                         <Box flex="1" sx={{display: {xs: "none", sm: "block", md: "block"}}}>
-                            <form className={`searchBox ${(mode === 'dark') && "light"}`}>
+                            <form onSubmit={handleSearch} className={`searchBox ${(mode === 'dark') && "light"}`}>
                                 <input type="text" value={search} placeholder="Search for products, brands or categories" onChange={(e) => setSearch(e.target.value)} />
                                 <button className={`search-btn ${(mode === 'dark') && "light"}`}>
                                     <IoSearchOutline className="header-icon-search" />

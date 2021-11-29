@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { Box, IconButton, Icon } from "@mui/material"
+import { Box, IconButton } from "@mui/material"
 import CustomCheckBox from "../../components/CustomCheckBox"
 import CartProduct from "../../components/CartProduct"
 
@@ -14,7 +14,7 @@ import "./style.css"
 
 const CartItem = ({image, item, name, quantity, price, id}) => {
     const { handleFavorite, handleCheckoutItem } = useContext(ShopContext)
-    const { addItem, deleteItem, addSelectedItem, removeSelectedItem, updateQuantity } = useContext(CartContext)
+    const { deleteItem, addSelectedItem, removeSelectedItem, updateQuantity } = useContext(CartContext)
     const [value, setValue] = useState(quantity || 1)
 
     const handleChange = (_item, _quantity, _type) => {
@@ -55,7 +55,7 @@ const CartItem = ({image, item, name, quantity, price, id}) => {
             <td>
                 <Box display="flex" alignItems="center" justifyContent="center">
                     <IconButton onClick={handleDecrease} sx={{color: "var(--primary)"}}>
-                        <img src={Minus} className="minusBtn" />
+                        <img alt="minus" src={Minus} className="minusBtn" />
                     </IconButton>
 
                     <input onChange={e => setValue(+e.target.value)} value={value} className="cart-quantity" />

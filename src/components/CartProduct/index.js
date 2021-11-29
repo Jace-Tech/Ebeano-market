@@ -33,7 +33,7 @@ const CartProduct = ({ image, name, item, id, handleCheckItem, handleAddfavorite
 
                     <Box display={{xs: "flex", md: "none"}} mt={2} alignItems="center" justifyContent="flex-start">
                         <IconButton onClick={handleDecrease && handleDecrease} sx={{color: "var(--primary)"}}>
-                            <img src={Minus} className="minusBtn" />
+                            <img alt="minus" src={Minus} className="minusBtn" />
                         </IconButton>
 
                         <input onChange={ onValueChange && onValueChange }  value={quantity} className="cart-quantity" />

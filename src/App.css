@@ -64,6 +64,22 @@ body{
     transition: all .5s;
 }
 
+.text-underlined.orange::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 90%;
+    transform-origin: left;
+    transform: scaleX(1);
+    height: 1px;
+    width: 100%;
+    background-color: #EB790F;
+    transition: all .5s;
+}
+
+.text-orange{
+    color: var(--primary);
+}
 .text-underlined:hover::after{
     transform: scaleX(0);
     background-color: var(--primary);

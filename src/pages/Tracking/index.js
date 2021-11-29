@@ -83,7 +83,12 @@ const Tracking = () => {
                                     </Grid>
                                 </Grid>
 
-                                <Grid item xs={12} md={7} sx={{display: {xs: "none", md: "block"}}}>
+                                <Grid item xs={12} md={7} sx={{display: {xs: "none", md: "flex"}}}>
+                                    {
+                                        !track && (
+                                            <Typography variant="h5" mt={3} sx={{color: "#aaa"}} textAlign="center" width="100%">Click on an item to track it</Typography>
+                                        )
+                                    }
                                 </Grid>
                             </Grid>
                         </Box>

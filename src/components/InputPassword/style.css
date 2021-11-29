@@ -1,0 +1,37 @@
+.form-password{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    margin: .5px 0;
+    padding: 0 .2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.form-password-input{
+    flex: 1;
+    display: block;
+    padding: .6rem .7rem;
+    font-size: .9rem;
+    font-weight: 300;
+    color: #777;
+    outline: none;
+    border: none;
+}
+
+.form-password-input:focus{
+    outline: none;
+}
+
+.form-password-input::placeholder{
+    color: #999;
+    opacity: 1;
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.input-box-error{
+    margin-top: .5rem;
+    font-size: .8rem;
+    color: #f00;
+}

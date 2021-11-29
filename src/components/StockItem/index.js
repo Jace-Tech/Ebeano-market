@@ -1,5 +1,4 @@
 import { Grid, Box, Typography } from "@mui/material"
-import { Link } from "react-router-dom"
 import BlockButton from "../BlockButton"
 
 import "./style.css"

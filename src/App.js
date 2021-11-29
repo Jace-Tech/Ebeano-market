@@ -6,6 +6,8 @@ import Checkout from "./pages/Checkout"
 import Cart from "./pages/Cart"
 import Tracking from "./pages/Tracking"
 import Category from "./pages/Category"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
 import ErrorPage from "./pages/ErrorPage"
 import ScrollTop from "./components/ScrollTop"
 import GlobalContexts from "./contexts"
@@ -35,6 +37,14 @@ const App = () => {
         {
             path: "/checkout",
             component: Checkout
+        },
+        {
+            path: "/login",
+            component: Login
+        },
+        {
+            path: "/register",
+            component: Signup
         },
         {
             path: "/tracking",

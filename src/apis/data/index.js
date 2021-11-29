@@ -47,7 +47,6 @@ import TyreBanner from "../../assets/hero-tyre.jpg"
 import CeaserBanner from "../../assets/hero-ceaser.jpg"
 import EngineBanner from "../../assets/hero-engine.jpg"
 import GreenBanner from "../../assets/hero-green.jpg"
-import SheepBanner from "../../assets/hero-sheep.jpg"
 import OutdoorBanner from "../../assets/hero-outdoor.jpg"
 import HouseBanner from "../../assets/hero-house.jpg"
 
@@ -113,7 +112,7 @@ export const categories = [
     {
         name: "Automobile",
         image: Car,
-        link: ""
+        link: "https://v1.ebeanomarket.com/category/automobile"
     },
     {
         name: "Education",
@@ -128,7 +127,7 @@ export const categories = [
     {
         name: "MarketPlace",
         image: House,
-        link: ""
+        link: "https://v1.ebeanomarket.com/marketplace"
     },
     {
         name: "Artisan",

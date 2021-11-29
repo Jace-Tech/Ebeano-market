@@ -196,7 +196,7 @@ const Checkout = () => {
 
                                                 <Box mt={1} flex={1}>
                                                     <div className="box-outlined" onClick={() => setPayment('paystack')}>
-                                                        <img src={Paystack} className="paystack" />
+                                                        <img alt="paystack" src={Paystack} className="paystack" />
                                                     </div>
                                                 </Box>
                                             </Box>

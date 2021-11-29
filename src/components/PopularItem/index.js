@@ -1,6 +1,4 @@
-import { useRef, useEffect } from "react"
-
-import { Grid, Box, Typography, IconButton, Icon } from "@mui/material"
+import { Grid, Box, Typography } from "@mui/material"
 import Button from "../Button"
 import "./style.css"
 

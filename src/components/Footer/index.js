@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Box, Typography, Grid, Icon, IconButton } from "@mui/material"
+import { Box, Typography, Grid, IconButton } from "@mui/material"
 import {Link} from "react-router-dom"
 import {IoLogoLinkedin, IoLogoFacebook, IoLogoYoutube} from "react-icons/io5"
 import BaseContainer from "../BaseContainer"
