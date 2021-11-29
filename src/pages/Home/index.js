@@ -116,6 +116,7 @@ const Home = () => {
                             }
                         </Swiper>
                     </Box>
+
                     <Box display={{xs: "none", sm: "none", md: "block", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={5}>
                             {
@@ -127,6 +128,7 @@ const Home = () => {
                             }
                         </Swiper>
                     </Box>
+
                     <Box display={{xs: "none", sm: "block", md: "none", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={4}>
                             {
@@ -138,6 +140,7 @@ const Home = () => {
                             }
                         </Swiper>
                     </Box>
+                    
                     <Box display={{xs: "block", sm: "none", md: "none", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={2}>
                             {

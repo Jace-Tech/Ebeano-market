@@ -103,7 +103,7 @@ export const categories = [
     {
         name: "Real Estate",
         image: Building,
-        link: ""
+        link: "https://v1.ebeanomarket.com/estate"
     },
     {
         name: "Utility",
@@ -118,12 +118,12 @@ export const categories = [
     {
         name: "Education",
         image: Page,
-        link: ""
+        link: "https://v1.ebeanomarket.com/eforms"
     },
     {
         name: "Bookings",
         image: Calendar,
-        link: ""
+        link: "https://v1.ebeanomarket.com/bookings"
     },
     {
         name: "MarketPlace",
@@ -133,7 +133,7 @@ export const categories = [
     {
         name: "Artisan",
         image: Artisan,
-        link: ""
+        link: "https://v1.ebeanomarket.com/artisans"
     },
 ]
 
