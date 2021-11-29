@@ -108,7 +108,7 @@ export const categories = [
     {
         name: "Utility",
         image: Utility,
-        link: "http://v1.ebeanomarket.com/expressbills"
+        link: "https://v1.ebeanomarket.com/expressbills"
     },
     {
         name: "Automobile",

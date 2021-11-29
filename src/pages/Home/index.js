@@ -120,9 +120,9 @@ const Home = () => {
                     <Box display={{xs: "none", sm: "none", md: "block", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={5}>
                             {
-                                categories.map(({name, image}, index) => (
+                                categories.map(({name, link, image}, index) => (
                                     <SwiperSlide key={index}>
-                                        <Category name={name} image={image}/>
+                                        <Category name={name} link={link} image={image}/>
                                     </SwiperSlide>
                                 ))
                             }
@@ -132,21 +132,21 @@ const Home = () => {
                     <Box display={{xs: "none", sm: "block", md: "none", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={4}>
                             {
-                                categories.map(({name, image}, index) => (
+                                categories.map(({name, link, image}, index) => (
                                     <SwiperSlide key={index}>
-                                        <Category name={name} image={image}/>
+                                        <Category name={name} link={link} image={image}/>
                                     </SwiperSlide>
                                 ))
                             }
                         </Swiper>
                     </Box>
-                    
+
                     <Box display={{xs: "block", sm: "none", md: "none", lg: "none"}} width="100%">
                         <Swiper {...viewMore} slidesPerView={2}>
                             {
-                                categories.map(({name, image}, index) => (
+                                categories.map(({name, link, image}, index) => (
                                     <SwiperSlide key={index}>
-                                        <Category name={name} image={image}/>
+                                        <Category name={name} link={link} image={image}/>
                                     </SwiperSlide>
                                 ))
                             }
